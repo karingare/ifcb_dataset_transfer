@@ -54,3 +54,56 @@ env/
 **/*.png
 **/*.pdf
 **/*.svg
+
+# --- virtual envs (any location) ---
+.venv/
+venv/
+env/
+ENV/
+**/.venv/
+**/venv/
+**/env/
+
+# --- Python packaging metadata (installed pkgs) ---
+**/*.egg-info/
+**/*.dist-info/
+pip-wheel-metadata/
+wheels/
+__pypackages__/
+**/site-packages/
+**/lib/python*/site-packages/
+
+# --- tooling caches / misc ---
+.ruff_cache/
+.python-version
+.coverage
+coverage.xml
+
+# --- Conda / Mamba (keep env specs!) ---
+
+# Binary conda packages (built or downloaded)
+**/*.conda
+**/*.tar.bz2
+
+# If someone creates an env inside the repo (avoid committing entire envs)
+**/conda-meta/
+**/pkgs/
+**/envs/
+**/bin/activate
+**/lib/python*/site-packages/
+**/Lib/site-packages/    # Windows
+
+# conda-build outputs
+conda-bld/
+**/conda-bld/
+
+# Mamba / micromamba caches if they ever land in-repo
+**/.mamba/
+**/micromamba/
+**/.conda/
+
+# ---- keep these tracked (specs & locks) ----
+!environment.yml
+!env.yml
+!conda-lock.yml
+!requirements*.txt
