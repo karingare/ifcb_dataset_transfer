@@ -107,3 +107,13 @@ conda-bld/
 !env.yml
 !conda-lock.yml
 !requirements*.txt
+
+# Local caches
+.conda_pkgs/
+.pip_cache/
+
+# Training outputs (keep code)
+05_model_training_and_inference/runs/
+05_model_training_and_inference/checkpoints/
+05_model_training_and_inference/logs/
+
