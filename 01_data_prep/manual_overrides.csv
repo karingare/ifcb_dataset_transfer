@@ -1,0 +1,22 @@
+source_class,standardized_class,WoRMS_ID,notes
+Aphanizomenon_spp_bundle,Aphanizomenon,160567,bundle qualifier removed → genus
+Aphanizomenon_flosaquae,Aphanizomenon,160567,added aphia id
+Centrales_sp,Centrales (morphological group),,non-taxonomic bucket (no AphiaID)
+Centrales,Centrales (morphological group),,non-taxonomic bucket; manual_override
+Centrales_sp,Centrales (morphological group),,non-taxonomic bucket; manual_override
+Cylindrotheca_closterium_Nitzschia_longissima,Cylindrotheca closterium Nitzschia longissima,,non-taxonomic bucket; manual_override
+Dinophyceae_smaller_than_30,Dinophyceae_smaller_than_30,19542.0,non-taxonomic bucket; manual_override
+Dinophyceae_larger_than_30,Dinophyceae_larger_than_30,19542.0,non-taxonomic bucket; manual_override
+Dolichospermum-Anabaenopsis,Dolichospermum-Anabaenopsis,578476,non-taxonomic bucket; manual_override
+Dolichospermum-Anabaenopsis-coiled,Dolichospermum-Anabaenopsis,578476,non-taxonomic bucket; manual_override
+Dolichospermum_spp_filament, Dolichospermum-Anabaenopsis, 578476
+Dolichospermum_spp_coil, Dolichospermum-Anabaenopsis, 578476
+Gymnodinium_like,Gymnodinium,1097,"'-like' stripped; genus AphiaID is approximate"
+Nodularia_spumigena_coil,Nodularia spumigena,160566,coil removed
+Pennales_sp_thick,Pennales (morphological group),,non-taxonomic bucket; manual_override
+Pennales_sp_thin,Pennales (morphological group),,non-taxonomic bucket; manual_override
+Rhizosolenia_Pseudosolenia,Rhizosolenia Pseudosolenia,,non-taxonomic bucket; manual_override
+Snowella-Woronichinia,Snowella-Woronichinia,,non-taxonomic bucket; manual_override
+Snowella_Woronichinia,Snowella-Woronichinia,,non-taxonomic bucket; manual_override
+Unclassifiable,Unclassifiable,,non-taxonomic bucket; manual_override
+Uroglenopsis_sp,Uroglenopsis,555950,added match

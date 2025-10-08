@@ -1,0 +1,6 @@
+{
+"smhi_ifcb_svea_baltic_proper": "/cfs/klemming/projects/supr/snic2020-6-126/projects/amime/manually_classified_ifcb_sets/SMHI_IFCB_Plankton_Image_Reference_Library_v4/smhi_ifcb_baltic_annotated_images",
+"smhi_ifcb_svea_skagerrak_kattegat": "/cfs/klemming/projects/supr/snic2020-6-126/projects/amime/manually_classified_ifcb_sets/SMHI_IFCB_Plankton_Image_Reference_Library_v4/smhi_ifcb_skagerrak-kattegat_annotated_images",
+"smhi_ifcb_tångesund": "/cfs/klemming/projects/supr/snic2020-6-126/projects/amime/manually_classified_ifcb_sets/SMHI_IFCB_Plankton_Image_Reference_Library_v4/smhi_ifcb_tangesund_annotated_images",
+"SYKE_plankton_IFCB_Utö_2021": "/cfs/klemming/projects/supr/snic2020-6-126/projects/amime/manually_classified_ifcb_sets/SYKE_2021"
+}

@@ -1,0 +1,56 @@
+# --- general ---
+__pycache__/
+*.py[cod]
+*.so
+.ipynb_checkpoints/
+.DS_Store
+.env
+.venv/
+venv/
+env/
+.mypy_cache/
+.pytest_cache/
+.cache/
+.vscode/
+.idea/
+
+# --- project outputs & big artifacts ---
+# data prep outputs
+01_data_prep/out_*/
+01_data_prep/out_scan/
+01_data_prep/out_std/
+01_data_prep/*/out_*/
+01_data_prep/vocab_*/
+01_data_prep/*worms_cache.json
+01_data_prep/*_filtered*/
+01_data_prep/*/pivot_classes_x_datasets.csv
+01_data_prep/*/combined_manifest*.csv
+01_data_prep/*/classes_removed_report.csv
+
+# keep curated mapping/overrides you edit by hand
+!01_data_prep/class_mapping_manually_reviewed.csv
+!01_data_prep/manual_overrides*.csv
+
+# dataset exports & reports
+03_dataset_creation/exports/
+03_dataset_creation/reports/
+
+# analysis & training outputs
+04_analyze_domain_shift/outputs/
+05_model_training_and_inference/runs/
+05_model_training_and_inference/checkpoints/
+05_model_training_and_inference/logs/
+
+# model files anywhere
+**/*.pt
+**/*.pth
+**/*.ckpt
+**/*.onnx
+**/*.pkl
+
+# figures (opt-in later if small)
+**/figs/
+**/figures/
+**/*.png
+**/*.pdf
+**/*.svg

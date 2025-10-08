@@ -1,0 +1,51 @@
+standardized_class,same-location-baltic,same-location-west-coast,different-location-baltic-to-west-coast,different-location-west-coast-to-baltic
+Alexandrium pseudogonyaulax,False,True,False,False
+Aphanizomenon,True,False,False,False
+Asterionella glacialis,False,False,False,False
+Centrales (morphological group),True,False,True,False
+Ceratoneis closterium,False,False,False,False
+Chaetoceros,True,True,True,True
+Chroococcales,False,False,False,False
+Ciliophora,True,True,True,True
+Cryptomonadales,True,True,True,True
+Cyclotella choctawhatcheeana,False,False,False,False
+Dictyochales,False,True,False,False
+Dinobryon,False,True,False,False
+Dinophyceae,False,False,False,False
+Dinophyceae_smaller_than_30,False,True,False,True
+Dinophysis acuminata,True,True,True,True
+Dolichospermum-Anabaenopsis,True,False,False,False
+Ensiculifera carinata,False,True,False,False
+Eutreptiella,True,True,True,True
+Gymnodinium,False,False,False,False
+Heterocapsa rotundata,True,False,True,False
+Heterocyte,False,False,False,False
+Karenia mikimotoi,False,True,False,False
+Kryptoperidinium triquetrum,False,False,True,False
+Licmophora,False,False,True,False
+Lingulaulax polyedra,False,True,False,False
+Melosira arctica,False,False,False,False
+Mesodinium rubrum,True,True,True,True
+Monoraphidium contortum,False,False,False,False
+Nodularia spumigena,True,False,False,False
+Octactis speculum,False,True,False,False
+Oocystis,True,False,False,False
+Oscillatoriales,False,False,False,False
+Pauliella taeniata,False,False,False,False
+Pennales (morphological group),False,False,False,False
+Peridiniella catenata,True,False,False,False
+Prorocentrum micans,False,True,False,False
+Prorocentrum triestinum,False,True,False,False
+Pseudo-nitzschia,False,True,False,True
+Pseudopedinella,False,False,False,False
+Pyramimonas,False,False,False,False
+Rhizosolenia Pseudosolenia,False,False,False,False
+Scrippsiella,False,True,False,False
+Skeletonema marinoi,True,True,True,True
+Strombidium,False,True,False,True
+Teleaulax,False,False,False,False
+Thalassiosira levanderi,False,False,False,False
+Torodinium robustum,False,True,False,False
+Tripos lineatus,False,True,False,True
+Unclassifiable,False,False,False,False
+Uroglenopsis,False,False,False,False

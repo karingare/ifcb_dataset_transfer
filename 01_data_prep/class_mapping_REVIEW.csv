@@ -1,0 +1,32 @@
+source_class,standardized_class,WoRMS_ID,notes
+Actinocyclus_spp,Actinocyclus,,genus-level
+Aphanizomenon_spp_filament,Aphanizomenon,,filament removed
+Centrales,Centrales (morphological group),,non-taxonomic bucket; manual_override
+Centrales_sp,Centrales (morphological group),,non-taxonomic bucket; manual_override
+Chaetoceros_cf_convolutus,Chaetoceros cf convolutus,,NO_MATCH_WORMS
+Chaetoceros_sp,Chaetoceros,,genus-level
+Chaetoceros_sp_single,Chaetoceros,,genus-level
+Chroococcus_small,Chroococcus small,,NO_MATCH_WORMS
+Ciliata,Ciliophora,,synonym in usage
+Cryptophyceae-Teleaulax,Teleaulax,,mapped to genus
+Cylindrotheca_closterium_Nitzschia_longissima,Cylindrotheca closterium Nitzschia longissima,,non-taxonomic bucket; manual_override
+Diatoma_tenuis-like_chain,Diatoma,,'-like' stripped → genus
+Diatoma_tenuis-like_single_cell,Diatoma,,'-like' stripped → genus
+Dinobryon_spp,Dinobryon,,genus-level
+Eutreptiella_spp,Eutreptiella,,genus-level
+Gyrosigma_Pleurosigma,Gyrosigma Pleurosigma,,NO_MATCH_WORMS
+Heterocapsa_Azadinium,Heterocapsa Azadinium,,NO_MATCH_WORMS
+Heterocyte,Heterocyte,,NO_MATCH_WORMS
+Leptocylindrus_danicus_Leptocylindrus_minimus,Leptocylindrus danicus Leptocylindrus minimus,,NO_MATCH_WORMS
+Pennales_sp_thick,Pennales (morphological group),,non-taxonomic bucket; manual_override
+Pennales_sp_thin,Pennales (morphological group),,non-taxonomic bucket; manual_override
+Peridiniella_catenata_chain,Peridiniella catenata,,chain removed
+Peridiniella_catenata_single,Peridiniella catenata,,single removed
+Pyramimonas_sp,Pyramimonas,,genus-level
+Rhizosolenia_Pseudosolenia,Rhizosolenia Pseudosolenia,,non-taxonomic bucket; manual_override
+Rhizosolenia_hebetata_f_semispina,Rhizosolenia hebetata f semispina,,NO_MATCH_WORMS
+Rhizosolenia_setigera_f_pungens,Rhizosolenia setigera f pungens,,NO_MATCH_WORMS
+Scrippsiella_group,Scrippsiella,,group → genus
+Snowella-Woronichinia,Snowella-Woronichinia,,non-taxonomic bucket; manual_override
+Snowella_Woronichinia,Snowella-Woronichinia,,non-taxonomic bucket; manual_override
+Unclassifiable,Unclassifiable,,non-taxonomic bucket; manual_override

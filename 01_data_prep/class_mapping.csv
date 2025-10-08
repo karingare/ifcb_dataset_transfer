@@ -1,0 +1,162 @@
+source_class,standardized_class,WoRMS_ID,notes
+Actinocyclus_spp,Actinocyclus,,genus-level
+Akashiwo_sanguinea,Akashiwo sanguinea,232546.0,status=accepted; rank=Species; match=exact
+Alexandrium_pseudogonyaulax,Alexandrium pseudogonyaulax,109713.0,status=accepted; rank=Species; match=exact
+Amphidinium-like,Amphidinium,109473.0,status=accepted; rank=Genus; match=exact
+Amylax_triacantha,Amylax triacantha,110007.0,status=accepted; rank=Species; match=exact
+Apedinella_radians,Apedinella radians,248097.0,status=accepted; rank=Species; match=exact
+Aphanizomenon_flosaquae,Aphanizomenon,160567.0,added aphia id
+Aphanizomenon_spp_bundle,Aphanizomenon,160567.0,bundle qualifier removed → genus
+Aphanizomenon_spp_filament,Aphanizomenon,,filament removed
+Aphanothece_paralleliformis,Aphanothece paralleliformis,624961.0,status=accepted; rank=Species; match=exact
+Asterionellopsis_glacialis,Asterionella glacialis,148955.0,status=unassessed; rank=Species; match=exact
+Binuclearia_lauterbornii,Binuclearia lauterbornii,575737.0,status=accepted; rank=Species; match=exact
+Blixaea_quinquecornis,Blixaea quinquecornis,1360848.0,status=accepted; rank=Species; match=exact
+Centrales,Centrales (morphological group),,non-taxonomic bucket; manual_override
+Centrales_sp,Centrales (morphological group),,non-taxonomic bucket; manual_override
+Cerataulina_pelagica,Cerataulina bergonii,961694.0,status=unassessed; rank=Species; match=exact
+Ceratoneis_closterium,Ceratoneis closterium,163932.0,status=unassessed; rank=Species; match=exact
+Chaetoceros_castracanei,Chaetoceros castracanei,341473.0,status=unassessed; rank=Species; match=exact
+Chaetoceros_cf_convolutus,Chaetoceros cf convolutus,,NO_MATCH_WORMS
+Chaetoceros_curvisetus,Chaetoceros curvisetus,149221.0,status=accepted; rank=Species; match=exact
+Chaetoceros_danicus,Chaetoceros danicus,149120.0,status=unassessed; rank=Species; match=exact
+Chaetoceros_debilis,Chaetoceros debilis,149219.0,status=accepted; rank=Species; match=exact
+Chaetoceros_didymus,Chaetoceros didymus,149122.0,status=accepted; rank=Species; match=exact
+Chaetoceros_similis,Chaetoceros similis,149127.0,status=accepted; rank=Species; match=exact
+Chaetoceros_sp,Chaetoceros,,genus-level
+Chaetoceros_sp_single,Chaetoceros,,genus-level
+Chaetoceros_spp,Chaetoceros,148985.0,status=accepted; rank=Genus; match=exact; removed '_spp'
+Chaetoceros_spp_chain,Chaetoceros,148985.0,status=accepted; rank=Genus; match=exact; removed '_chain'; genus-level (sp/spp)
+Chaetoceros_spp_single_cell,Chaetoceros,148985.0,status=accepted; rank=Genus; match=exact; removed '_single_cell'; genus-level (sp/spp)
+Chaetoceros_wighamii,Chaetoceros wighamii,160524.0,status=accepted; rank=Species; match=exact
+Chlorococcales,Chlamydomonadales,732333.0,status=accepted; rank=Order; match=exact
+Chroococcales,Chroococcales,146543.0,status=accepted; rank=Order; match=exact
+Chroococcus_small,Chroococcus small,,NO_MATCH_WORMS
+Ciliata,Ciliophora,,synonym in usage
+Ciliophora,Ciliophora,11.0,status=accepted; rank=Phylum; match=exact
+Coscinodiscus_radiatus,Coscinodiscus radiatus,149158.0,status=unassessed; rank=Species; match=exact
+Cryptomonadales,Cryptomonadales,17640.0,status=accepted; rank=Order; match=exact
+Cryptophyceae-Teleaulax,Teleaulax,,mapped to genus
+Cyclotella_choctawhatcheeana,Cyclotella choctawhatcheeana,148908.0,status=unassessed; rank=Species; match=exact
+Cyclotella_spp,Cyclotella,148905.0,status=accepted; rank=Genus; match=exact; removed '_spp'
+Cylindrotheca_closterium_Nitzschia_longissima,Cylindrotheca closterium Nitzschia longissima,,non-taxonomic bucket; manual_override
+Cymbomonas_tetramitiformis,Cymbomonas tetramitiformis,134545.0,status=accepted; rank=Species; match=exact
+Dactyliosolen_fragilissimus,Rhizosolenia fragilissima f. fragilissima,985165.0,status=unassessed; rank=Forma; match=exact
+Diatoma_tenuis-like_chain,Diatoma,,'-like' stripped → genus
+Diatoma_tenuis-like_single_cell,Diatoma,,'-like' stripped → genus
+Dictyocha_fibula,Dictyocha fibula,157463.0,status=accepted; rank=Species; match=exact
+Dictyochales,Dictyochales,157256.0,status=accepted; rank=Order; match=exact
+Dinobryon_spp,Dinobryon,,genus-level
+Dinophyceae,Dinophyceae,19542.0,status=accepted; rank=Class; match=exact
+Dinophyceae_larger_than_30,Dinophyceae_larger_than_30,19542.0,non-taxonomic bucket; manual_override
+Dinophyceae_pair,Dinophyceae,19542.0,status=accepted; rank=Class; match=exact; removed '_pair'
+Dinophyceae_smaller_than_30,Dinophyceae_smaller_than_30,19542.0,non-taxonomic bucket; manual_override
+Dinophysis_acuminata,Dinophysis acuminata,109603.0,status=accepted; rank=Species; match=exact
+Dinophysis_acuta,Dinophysis acuta,109604.0,status=accepted; rank=Species; match=exact
+Dinophysis_norvegica,Dinophysis norvegica,109637.0,status=accepted; rank=Species; match=exact
+Dinophysis_tripos,Dinophysis tripos,109662.0,status=accepted; rank=Species; match=exact
+Ditylum_brightwellii,Ditylum brightwellii,149023.0,status=unassessed; rank=Species; match=exact
+Dolichospermum-Anabaenopsis,Dolichospermum-Anabaenopsis,578476.0,non-taxonomic bucket; manual_override
+Dolichospermum-Anabaenopsis-coiled,Dolichospermum-Anabaenopsis,578476.0,non-taxonomic bucket; manual_override
+Dolichospermum_spp_coil,Dolichospermum-Anabaenopsis,578476.0,nan
+Dolichospermum_spp_filament,Dolichospermum-Anabaenopsis,578476.0,nan
+Ebria_tripartita,Ebria tripartita,118051.0,status=accepted; rank=Species; match=exact
+Ensiculifera_carinata,Ensiculifera carinata,233835.0,status=accepted; rank=Species; match=exact
+Eucampia_zodiacus,Eucampia zodiacus,149131.0,status=unassessed; rank=Species; match=exact
+Euglenophyceae,Euglenophyceae,19539.0,status=accepted; rank=Class; match=exact
+Eutreptiella_sp,Eutreptiella,17657.0,status=accepted; rank=Genus; match=exact; removed '_sp'
+Eutreptiella_spp,Eutreptiella,,genus-level
+Gonyaulax_spinifera,Gonyaulax spinifera,110041.0,status=accepted; rank=Species; match=exact
+Gonyaulax_spp,Gonyaulax,109519.0,status=accepted; rank=Genus; match=exact; removed '_spp'
+Gonyaulax_verior,Sourniaea diacantha,1760858.0,status=accepted; rank=Species; match=exact
+Guinardia_delicatula,Rhizosolenia delicatula,149114.0,status=unassessed; rank=Species; match=exact
+Guinardia_flaccida,Rhizosolenia flaccida,160530.0,status=unassessed; rank=Species; match=exact
+Guinardia_striata,Eucampia striata,163243.0,status=unassessed; rank=Species; match=exact
+Gymnodiniales,Gymnodiniales,109392.0,status=accepted; rank=Order; match=exact
+Gymnodiniales_larger_than_30,Gymnodiniales,109392.0,status=accepted; rank=Order; match=exact; removed '_larger_than_30'
+Gymnodiniales_smaller_than_30,Gymnodiniales,109392.0,status=accepted; rank=Order; match=exact; removed '_smaller_than_30'
+Gymnodinium_like,Gymnodinium,1097.0,'-like' stripped; genus AphiaID is approximate
+Gymnodinium_verruculosum,Gymnodinium verruculosum,232880.0,status=accepted; rank=Species; match=exact
+Gyrodinium_spirale,Gyrodinium spirale,109876.0,status=accepted; rank=Species; match=exact
+Gyrosigma_Pleurosigma,Gyrosigma Pleurosigma,,NO_MATCH_WORMS
+Helicostomella_spp,Helicostomella,172434.0,status=accepted; rank=Genus; match=exact; removed '_spp'
+Heterocapsa_Azadinium,Heterocapsa Azadinium,,NO_MATCH_WORMS
+Heterocapsa_rotundata,Heterocapsa rotundata,110152.0,status=accepted; rank=Species; match=exact
+Heterocapsa_spp,Heterocapsa,109540.0,status=accepted; rank=Genus; match=exact; removed '_spp'
+Heterocapsa_triquetra,Kryptoperidinium triquetrum,1346683.0,status=accepted; rank=Species; match=exact
+Heterocyte,Heterocyte,,NO_MATCH_WORMS
+Heterosigma-like,Heterosigma,160584.0,status=accepted; rank=Genus; match=exact
+Karenia_mikimotoi,Karenia mikimotoi,233024.0,status=accepted; rank=Species; match=exact
+Katablepharis_remigera,Katablepharis remigera,627117.0,status=accepted; rank=Species; match=exact
+Katodinium-like,Katodinium,109477.0,status=accepted; rank=Genus; match=exact
+Laboea_strobila,Laboea strobila,101264.0,status=accepted; rank=Species; match=exact
+Leptocylindrus_danicus,Leptocylindrus danicus,149106.0,status=unassessed; rank=Species; match=exact
+Leptocylindrus_danicus_Leptocylindrus_minimus,Leptocylindrus danicus Leptocylindrus minimus,,NO_MATCH_WORMS
+Leptocylindrus_minimus,Leptocylindrus minimus,149039.0,status=unassessed; rank=Species; match=exact
+Licmophora_sp,Licmophora,149342.0,status=accepted; rank=Genus; match=exact; removed '_sp'
+Licmophora_spp,Licmophora,149342.0,status=accepted; rank=Genus; match=exact; removed '_spp'
+Lingulodinium_polyedra,Lingulaulax polyedra,1778370.0,status=accepted; rank=Species; match=exact
+Melosira_arctica,Melosira arctica,160537.0,status=unassessed; rank=Species; match=exact
+Merismopedia_sp,Merismopedia,146545.0,status=accepted; rank=Genus; match=exact; removed '_sp'
+Mesodinium_major,Mesodinium major,1476503.0,status=accepted; rank=Species; match=exact
+Mesodinium_rubrum,Mesodinium rubrum,232069.0,status=accepted; rank=Species; match=exact
+Monoraphidium_contortum,Monoraphidium contortum,160591.0,status=accepted; rank=Species; match=exact
+Monoraphidium_spp,Monoraphidium,160590.0,status=accepted; rank=Genus; match=exact; removed '_spp'
+Nitzschia_paleacea,Nitzschia paleacea,609727.0,status=unassessed; rank=Species; match=exact
+Nodularia_spumigena,Nodularia spumigena,160566.0,status=accepted; rank=Species; match=exact
+Nodularia_spumigena_coil,Nodularia spumigena,160566.0,coil removed
+Nodularia_spumigena_filament,Nodularia spumigena,160566.0,status=accepted; rank=Species; match=exact; removed '_filament'
+Octactis_speculum,Octactis speculum,1310442.0,status=accepted; rank=Species; match=exact
+Oocystis_sp,Oocystis,178611.0,status=accepted; rank=Genus; match=exact; removed '_sp'
+Oocystis_spp,Oocystis,178611.0,status=accepted; rank=Genus; match=exact; removed '_spp'
+Oscillatoriales,Oscillatoriales,146603.0,status=accepted; rank=Order; match=exact
+Paralia_sulcata,Paralia sulcata,149055.0,status=accepted; rank=Species; match=exact
+Pauliella_taeniata,Pauliella taeniata,163624.0,status=unassessed; rank=Species; match=exact
+Pennales,Pennales,1304629.0,status=accepted; rank=Order; match=exact
+Pennales_sp_thick,Pennales (morphological group),,non-taxonomic bucket; manual_override
+Pennales_sp_thin,Pennales (morphological group),,non-taxonomic bucket; manual_override
+Peridiniales_smaller_than_30,Peridiniales,109394.0,status=accepted; rank=Order; match=exact; removed '_smaller_than_30'
+Peridiniella_catenata,Peridiniella catenata,110156.0,status=accepted; rank=Species; match=exact
+Peridiniella_catenata_chain,Peridiniella catenata,,chain removed
+Peridiniella_catenata_single,Peridiniella catenata,,single removed
+Porosira_glacialis,Porosira glacialis,156689.0,status=unassessed; rank=Species; match=exact
+Proboscia_alata,Proboscia alata,149168.0,status=unassessed; rank=Species; match=exact
+Prorocentrum_cordatum,Prorocentrum cordatum,232376.0,status=accepted; rank=Species; match=exact
+Prorocentrum_micans,Prorocentrum micans,110303.0,status=accepted; rank=Species; match=exact
+Prorocentrum_triestinum,Prorocentrum triestinum,110316.0,status=accepted; rank=Species; match=exact
+Protoperidinium_spp,Protoperidinium,109553.0,status=accepted; rank=Genus; match=exact; removed '_spp'
+Pseudo-nitzschia_spp,Pseudo-nitzschia,149151.0,status=accepted; rank=Genus; match=exact; removed '_spp'
+Pseudopedinella_sp,Pseudopedinella,160599.0,status=accepted; rank=Genus; match=exact; removed '_sp'
+Pseudosolenia_calcar-avis,Pseudosolenia calcar-avis,163344.0,status=accepted; rank=Species; match=exact
+Pyramimonas_longicauda,Pyramimonas longicauda,160513.0,status=accepted; rank=Species; match=exact
+Pyramimonas_sp,Pyramimonas,,genus-level
+Rhizosolenia_Pseudosolenia,Rhizosolenia Pseudosolenia,,non-taxonomic bucket; manual_override
+Rhizosolenia_hebetata_f_semispina,Rhizosolenia hebetata f semispina,,NO_MATCH_WORMS
+Rhizosolenia_imbricata,Rhizosolenia imbricata,149116.0,status=accepted; rank=Species; match=exact
+Rhizosolenia_setigera,Sundstroemia setigera,1590706.0,status=accepted; rank=Species; match=exact
+Rhizosolenia_setigera_f_pungens,Rhizosolenia setigera f pungens,,NO_MATCH_WORMS
+Scenedesmus_spp,Scenedesmus,160602.0,status=accepted; rank=Genus; match=exact; removed '_spp'
+Scrippsiella_group,Scrippsiella,,group → genus
+Skeletonema_marinoi,Skeletonema marinoi,376667.0,status=unassessed; rank=Species; match=exact
+Snowella-Woronichinia,Snowella-Woronichinia,,non-taxonomic bucket; manual_override
+Snowella_Woronichinia,Snowella-Woronichinia,,non-taxonomic bucket; manual_override
+Stellarima_stellaris,Coscinodiscus stellaris var. stellaris,975029.0,status=unassessed; rank=Variety; match=exact
+Strombidium-like,Strombidium,101195.0,status=accepted; rank=Genus; match=exact
+Thalassionema_nitzschioides,Thalassionema nitzschioides,149093.0,status=accepted; rank=Species; match=exact
+Thalassiosira_angulata,Orthosira angulata,966467.0,status=unassessed; rank=Species; match=exact
+Thalassiosira_anguste-lineata,Coscinodiscus angustelineatus,964359.0,status=unassessed; rank=Species; match=exact
+Thalassiosira_gravida,Thalassiosira gravida,149102.0,status=accepted; rank=Species; match=exact
+Thalassiosira_levanderi,Thalassiosira levanderi,149308.0,status=unassessed; rank=Species; match=exact
+Thalassiosira_nordenskioeldii,Thalassiosira nordenskioeldii,148931.0,status=accepted; rank=Species; match=exact
+Thalassiosira_punctigera,Ethmodiscus punctiger,148941.0,status=unassessed; rank=Species; match=exact
+Thalassiosira_spp,Thalassiosira,148912.0,status=accepted; rank=Genus; match=exact; removed '_spp'
+Torodinium_robustum,Torodinium robustum,109889.0,status=accepted; rank=Species; match=exact
+Trieres_mobiliensis,Trieres mobiliensis,839991.0,status=unassessed; rank=Species; match=exact
+Tripos_furca,Tripos furca,840627.0,status=accepted; rank=Species; match=exact
+Tripos_fusus,Tripos fusus,840626.0,status=accepted; rank=Species; match=exact
+Tripos_lineatus,Tripos lineatus,837459.0,status=accepted; rank=Species; match=exact
+Tripos_macroceros,Tripos macroceros,841260.0,status=accepted; rank=Species; match=exact
+Tripos_muelleri,Tripos muelleri,495363.0,status=accepted; rank=Species; match=exact
+Unclassifiable,Unclassifiable,,non-taxonomic bucket; manual_override
+Uroglenopsis_sp,Uroglenopsis,555950.0,added match
+Warnowia-like,Warnowia,109491.0,status=accepted; rank=Genus; match=exact
