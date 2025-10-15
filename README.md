@@ -20,3 +20,7 @@ ml PDC
 ml rocm/5.7.0
 ml craype-accel-amd-gfx90a
 ssh to node (unique name).
+
+## Datasets used
+- SYKE_plankton_IFCB_Utö_2021, 	https://doi.org/10.23728/b2share.7c273b6f409c47e98a868d6517be3ae3
+- SMHI IFCB Plankton Image Reference Library https://doi.org/10.17044/scilifelab.25883455.v4
