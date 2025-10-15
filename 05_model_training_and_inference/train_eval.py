@@ -166,30 +166,38 @@ def make_loaders(
     tr_tf = make_transforms(train=True, strong_aug=strong_aug)
     te_tf = make_transforms(train=False)
 
-    src_train = ImageFolderFiltered(source_root, transform=tr_tf, exclude_classes=exclude)
-    # We'll split off a small validation subset from source to track overfitting
-    val_ratio = 0.1 if len(src_train) >= 1000 else 0.2
-    n_val = max(1, int(len(src_train) * val_ratio))
-    n_train = len(src_train) - n_val
+    # --- source dataset
+    src_base = ImageFolderFiltered(source_root, transform=tr_tf, exclude_classes=exclude)
+    # class maps are defined by the *source* set (after optional exclusion)
+    class_to_idx = src_base.class_to_idx
+    idx_to_class = {i: c for c, i in class_to_idx.items()}
+
+    # split train/val on source
+    val_ratio = 0.1 if len(src_base) >= 1000 else 0.2
+    n_val = max(1, int(len(src_base) * val_ratio))
+    n_train = len(src_base) - n_val
     src_train_ds, src_val_ds = torch.utils.data.random_split(
-        src_train, [n_train, n_val],
+        src_base, [n_train, n_val],
         generator=torch.Generator().manual_seed(42)
     )
-    # validation: no augmentation
+    # no aug for val
     src_val_ds.dataset.transform = te_tf
 
     src_train_loader = DataLoader(src_train_ds, batch_size=batch_size, shuffle=True,  num_workers=workers, pin_memory=True)
     src_val_loader   = DataLoader(src_val_ds,   batch_size=batch_size, shuffle=False, num_workers=workers, pin_memory=True)
 
+    # --- target loader (optional)
     tgt_loader = None
     if target_root is not None:
         tgt_ds = ImageFolderFiltered(target_root, transform=te_tf, exclude_classes=exclude)
-        tgt_loader = DataLoader(tgt_ds, batch_size=batch_size, shuffle=False, num_workers=workers, pin_memory=True)
+        _align_target_to_source(tgt_ds, class_to_idx)
+        if len(tgt_ds.samples) == 0:
+            print("⚠️  Warning: no overlapping classes between source and target after alignment; skipping target loader.")
+        else:
+            tgt_loader = DataLoader(tgt_ds, batch_size=batch_size, shuffle=False, num_workers=workers, pin_memory=True)
 
-    # IMPORTANT: src_train here is the base ImageFolderFiltered
-    class_to_idx = src_train.class_to_idx
-    idx_to_class = {i: c for c, i in class_to_idx.items()}
     return src_train_loader, src_val_loader, tgt_loader, class_to_idx, idx_to_class
+
 
 
 # --------------------- Model & Losses ---------------------
@@ -234,14 +242,21 @@ class CoralLoss(nn.Module):
 
 def compute_metrics(y_true: np.ndarray, y_pred: np.ndarray, labels: List[str]) -> Dict:
     if _HAVE_SK:
-        macro_f1 = float(f1_score(y_true, y_pred, average='macro'))
+        # Always evaluate over the full label set [0..C-1]
+        label_indices = list(range(len(labels)))
+        macro_f1 = float(f1_score(y_true, y_pred, average='macro', labels=label_indices))
         acc = float((y_true == y_pred).mean())
-        rep = classification_report(y_true, y_pred, target_names=labels, output_dict=True, zero_division=0)
-        cm = confusion_matrix(y_true, y_pred).tolist()
+        rep = classification_report(
+            y_true, y_pred,
+            labels=label_indices,
+            target_names=labels,
+            output_dict=True,
+            zero_division=0
+        )
+        cm = confusion_matrix(y_true, y_pred, labels=label_indices).tolist()
         return {"macro_f1": macro_f1, "accuracy": acc, "report": rep, "confusion_matrix": cm}
-    # Fallback minimal metrics
+    # Fallback minimal metrics unchanged...
     acc = float((y_true == y_pred).mean())
-    # macro-F1 manual
     n_classes = len(labels)
     f1s = []
     for k in range(n_classes):
@@ -254,6 +269,7 @@ def compute_metrics(y_true: np.ndarray, y_pred: np.ndarray, labels: List[str]) -
         f1s.append(f1)
     macro_f1 = float(np.mean(f1s))
     return {"macro_f1": macro_f1, "accuracy": acc}
+
 
 
 def evaluate(model: nn.Module, loader: DataLoader, device: torch.device) -> Dict:
@@ -331,6 +347,12 @@ def train(
 
     # Class weights to mitigate imbalance (inverse frequency on source train split)
     counts = np.bincount([y for _, y in src_train.dataset], minlength=len(class_to_idx))
+    # Use the Subset indices to avoid loading images
+    train_subset = src_train.dataset  # torch.utils.data.Subset
+    base_ds = train_subset.dataset    # ImageFolderFiltered (has .targets)
+    idxs = train_subset.indices       # indices into base_ds
+    labels = [base_ds.targets[i] for i in idxs]
+    counts = np.bincount(labels, minlength=len(class_to_idx))
     inv = 1.0 / np.clip(counts, 1, None)
     weights = inv / inv.sum() * len(inv)
     ce_weight = torch.tensor(weights, dtype=torch.float32, device=device)
@@ -511,6 +533,21 @@ def main():
             exclude_classes=args.exclude_classes,
             report_out=args.report_out,
         )
+
+
+def _align_target_to_source(tgt_ds, src_class_to_idx):
+    # Remap target samples to source indices (by class name) and drop non-overlapping classes
+    name_by_idx = tgt_ds.classes
+    new_samples = []
+    for p, y in tgt_ds.samples:
+        cls = name_by_idx[y]
+        if cls in src_class_to_idx:
+            new_samples.append((p, src_class_to_idx[cls]))
+    tgt_ds.samples = new_samples
+    tgt_ds.targets = [y for _, y in new_samples]
+    tgt_ds.class_to_idx = src_class_to_idx.copy()
+    # rebuild classes in the *source* order
+    tgt_ds.classes = [c for c, i in sorted(src_class_to_idx.items(), key=lambda kv: kv[1])]
 
 
 if __name__ == '__main__':

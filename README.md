@@ -10,3 +10,13 @@ Pipeline: data prep → dataset creation → domain shift analysis → training/
 - 05_model_training_and_inference/ : training code, configs, runs
 
 Generated data and large artifacts are ignored by default (see .gitignore).
+
+To run the code on dardel: 
+ml tmux
+tmux new -s ddls
+salloc -N 1 -t 1:30:00 -A naiss2025-5-219 -p gpu 
+source /cfs/klemming/projects/supr/snic2020-6-126/environments/Karin/amime_uv_env/bin/activate
+ml PDC
+ml rocm/5.7.0
+ml craype-accel-amd-gfx90a
+ssh to node (unique name).
