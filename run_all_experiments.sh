@@ -94,10 +94,10 @@ run_job() {
 # 1) Tångesund → Skagerrak/Kattegat
 # run_job "${TANGESUND}" "${SKAGERRAK}" "tangesund_to_skagerrak" "source_only"
 # run_job "${TANGESUND}" "${SKAGERRAK}" "tangesund_to_skagerrak" "coral"
-run_job "${TANGESUND}" "${SKAGERRAK}" "tangesund_to_skagerrak" "bn_adapt"
+#run_job "${TANGESUND}" "${SKAGERRAK}" "tangesund_to_skagerrak" "bn_adapt"
 
 # 2) SYKE → Baltic Proper
-run_job "${SYKE}" "${BALTIC_PROPER}" "syke_to_baltic" "source_only"
+#run_job "${SYKE}" "${BALTIC_PROPER}" "syke_to_baltic" "source_only"
 run_job "${SYKE}" "${BALTIC_PROPER}" "syke_to_baltic" "coral"
 run_job "${SYKE}" "${BALTIC_PROPER}" "syke_to_baltic" "bn_adapt"
 
